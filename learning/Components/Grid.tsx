@@ -2,7 +2,7 @@ import { gridItems, GridItems, projects } from '@/Data/Index'
 import { BentoGrid, BentoGridItem } from './ui/BentoGrid'
 
 function Grid() {
-    return (
+    return ( 
         <section id='about'>
             <BentoGrid>
                 {
@@ -15,9 +15,9 @@ function Grid() {
                             title={title}
                             description={description}
                             className={className}
-                            img={img}
+                            img={img} 
                             imgClassName={imgClassName}
-                            titleClassName={titleClassName}
+                            titleClassname={titleClassName}
                             spareImg={spareImg}
                         />
                     ))
